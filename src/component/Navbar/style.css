@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+	margin:0;
+	padding:0;
+	 font-family: 'Poppins', sans-serif;
+	 box-sizing: border-box;
+	 list-style: none;
+	 text-decoration: none;
+}
+.header{
+	min-height:100vh;
+	width:100%;
+	/* background-image:url("../../image/f-1.jpg");
+	background-position: center;
+	background-size: cover; */
+}
+nav{
+	display:flex;
+	padding:0% 1%;
+	justify-content: space-between;
+	align-items:center;
+	/*border:1px solid black;*/
+	position: relative;
+	background:rgba(255,255,255,0.5); 
+	height: 80px;
+	box-shadow: 0px 0px 15px #888888;
+}
+.logo{
+font-weight: 600;
+    font-size:35px;	
+    color: gray;
+    margin-left: 20px;
+}
+.logo span{
+	color:#e85b73;;
+}
+.nav-links{
+	
+	text-align:center;
+	/*border:1px solid black;*/
+}
+.nav-links ul li{
+	font-size: 20px;
+	display:inline-block;
+	padding:8px 22px;
+	color: black;
+}
+.symbol{
+	text-align:center;
+	margin-left:15px;
+	/*border:1px solid black;*/
+	position: relative;
+	right: 30px;
+	
+}
+.symbol a{
+	display:inline;
+	padding: 20px;
+	color: black;
+	font-size: 20px;
+}
+.text-box{
+	width: 51%;
+	padding-top: 7%;
+	margin-left: 5%;
+
+/*border:1px solid black;*/
+}
+.text-box h2{
+	font-size: 60px;
+	font-weight: -20px; 
+	margin-bottom: 45px;
+}
+.text-box span{
+	color:#e85b73;
+	font-weight: -20px; 
+}
+.text-box p{
+	font-size: 20px;
+	
+	margin-bottom: 45px;
+}
+
+.text-box .bx{
+	color:#f2b031;
+	margin: 3px;
+	font-size: 20px;
+display: inline-block;
+}
+.star span{
+	margin-left: 21px;
+	font-size: 15px;
+	color: black;
+
+	/*border: 1px solid black;*/
+
+}
+.star span .bx{
+
+	font-size:5px; 
+	color: black;
+	margin-bottom: 45px;
+}
+.text-box-1{
+    width: 40%;
+	margin-left:5%;
+	/*border: 1px solid black;*/
+	background-color: rgba(255,255,255,0.3); 
+	box-shadow:  5px 5px 5px gray;
+}
+.text-box-1 .n-1{
+	color: black;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.text-box-1 .n-2{
+	
+     color: black;
+     font-weight: bold;
+	font-size: 30px;
+}
+.text-box-1 .n-3{
+	
+    color: black;
+    font-weight: bold;
+   font-size: 20px;
+}
+.text-box .fresh{
+   margin-left: 60px;
+   color: black;
+   font-weight: bold;
+   font-size: 18px;
+   }
+   .text-box-1 .button-1{
+	color: white;
+	border-radius:30px;
+	padding: 9px 20px;
+	margin-left: 50px;
+	background: #FF69B4;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.button-1 .bx{
+	color: white;
+}
